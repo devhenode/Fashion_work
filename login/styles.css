@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: orangered;
+}
+
+header h1{
+    font-weight: 700pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-bottom: 0;
+}
+
+#searchbox {
+    align-items: right;
+}
+
+/*#navbar{
+    background-color: aquamarine;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orangered;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+li a:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    text-decoration: none;
+}
+
+/* .active {
+    background-color: green;
+} */
+
+li{
+    border-right: 1px solid whitesmoke;
+}
+
+#log-in {
+    text-align: center;
+}
+
+#log-in input {
+    margin: 5px;
+}
+
+.button input {
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button input:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+
+#facebook{
+    width: 1cm;
+    height: 1cm;
+}
+
+#instagram{
+    width: 1cm;
+    height: 1cm;
+}
+
+#twitter{
+    width: 1cm;
+    height: 1cm;
+}
+
+h1{
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 700;
+}
+
+p, h2, h3, h4, h5, a{
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 400;
+}
+
+
+.footer{
+    padding: 30px 25px;
+    bottom: 0;
+    width: auto;
+    background-color: orangered;
+    margin-top: 10px;
+    text-align: center;
+}
