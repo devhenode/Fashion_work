@@ -62,7 +62,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    text-decoration: none;
 }
 
 .active {

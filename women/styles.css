@@ -71,7 +71,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    text-decoration: none;
 }
 
 .active {
@@ -136,7 +139,7 @@ p, h2, h3, h4, h5, a{
 
 .footer{
     /* bottom: 0; */
-    padding: 5%;
+    padding: 20px;
     width: auto;
     background-color: orangered;
     /* margin: 0px; */

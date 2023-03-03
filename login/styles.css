@@ -71,16 +71,16 @@ li{
 
 .button input {
     margin: 10px;
-    background-color: orangered;
-    color: white;
+    background-color: white;
+    color: orangered;
     width: 170px;
-    border: none;
+    border: 1px solid orangered;
     border-radius: 10px;
 }
 
 .button input:hover {
-    background-color: white;
-    color: orangered;
+    background-color: orangered;
+    color: white;
     border: 1px solid orangered;
 }
 

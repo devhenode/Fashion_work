@@ -55,14 +55,14 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
-    
+    text-decoration: none;    
 }
 
 li a:hover {
     background-color: white;
     color: orangered;
+    text-decoration: none;
+    border: 1px solid orangered;
 }
 
 .active {

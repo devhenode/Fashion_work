@@ -61,7 +61,10 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    text-decoration: none;
 }
 
 .active {
@@ -118,41 +121,13 @@ p, h2, h3, h4, h5, a{
 }
 
 
-.footer{
+.footer {
+    padding: 20px;
     bottom: 0;
     width: auto;
     background-color: orangered;
     margin-top: 10px;
     text-align: center;
 }
-    
-
-*aside{
-   
-}*
 
 
-/*.product{
-    display: flex;
-    padding: 10pt;
-}
-*/
-
-.maincontainer{
-    float: left;
-    width: 75%;
-}
-
-
-
-/* section.col-md-6 {
-    width: 200px;
-    height: 250px;
-    background-color: red;
-    margin-right: 30px;
-}
-
-section > img {
-    width: 200px;
-    background-size: auto;
-} */
